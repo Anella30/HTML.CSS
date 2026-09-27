@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Images-Monet/nympheas-monet-bandeau.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+font-size: 80px;
+font-style: italic;
+font-weight: bold;
+
+border: 30px;
+margin: 30px;
+padding: 30px;
+}
+
+h2{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+
+    border: 50px;
+    margin: 50px;
+    padding: 50px;
+}
+
+ul{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px;
+}
+
+li{
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.conteneur{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portrait{
+    max-width: 200%;
+    height: auto;
+
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+a img{
+   cursor: pointer;
+   border: none;
+   transition: opacity 0,2s;
+}
+
+a img:active{
+opacity: 0,8;
+}
+
